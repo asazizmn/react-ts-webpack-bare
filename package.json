@@ -4,8 +4,8 @@
   "description": "A bare bones React, TypeScript, and  Webpack project base, created as a lightweight alternative to CRA (`create-react-app`).",
   "main": "index.js",
   "scripts": {
-    "build": "tsc -p .",
-    "watch": "tsc -p . -w"
+    "build": "webpack",
+    "watch": "webpack -w"
   },
   "author": "S. Aziz",
   "license": "ISC",
