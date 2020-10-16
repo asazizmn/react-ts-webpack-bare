@@ -1,8 +1,9 @@
 {
     "compilerOptions": {                            // Ref: https://www.typescriptlang.org/tsconfig
-        "module": "None",                           // no module system, concatenated file
+        "allowSyntheticDefaultImports": true,       // Allow importing like `import React from 'react'`
+        "module": "ES2015",                         // Use ES2015 module system
         "jsx": "react",                             // set React as the JSX factory 
-        // "moduleResolution": "Node",                 // resolve modules using node-resolution algorithm
+        "moduleResolution": "Node",                 // resolve modules using node-resolution algorithm
         "target": "ES6",                            // target es6 for modern browsers
         "lib": ["ES2015", "DOM", "DOM.Iterable"],   // include typings from built-in lib declarations
         "sourceMap": true,                          // include module source maps for debugging
